@@ -1,10 +1,15 @@
 
 
 body{
-
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    overflow-wrap: normal;
+    margin: 0;
+    padding: 0;
 }
+
+
+
 
 .logo{
 
@@ -14,5 +19,51 @@ width: 200px;
 
 .logo img{
 width:200px;
+
+}
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+
+nav, menu, ul, li, a{
+
+list-style-type: none;
+display: flex;
+margin-left: 1.5em;
+align-items: center;
+
+
+}
+
+.mn-text{
+
+width:600px;
+
+}
+
+
+
+section {
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+
+}
+
+
+.mn-icon{
+
+box-shadow: inset;
+
+
 
 }
