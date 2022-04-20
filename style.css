@@ -148,6 +148,8 @@ letter-spacing: 1px;
     display: flex;
     width: auto;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-around;
     
 }
 
@@ -169,47 +171,12 @@ justify-content: center;
 .img-1{
 
 
-    width: 600px;
+    width: 400px;
     text-align: center;
     align-items: center;
-}
-
-
-section h1{
-
-text-align: center;
-}
-
-.info-bg img{
-
-width:100%;
-height:auto;
-z-index: -1;
-position:absolute;
 
 }
 
 
-.info-card{
 
-background-color: black;
-opacity: 70%;
-width: 500px;
-display: flex;
-justify-content: space-around;
-
-
-
-}
-
-.info-card p{
-
-color: wheat;
-}
-
-.info-bg{
-
-    display: flex;
-   
-}
 
