@@ -24,6 +24,21 @@ font-size: 1.1em;
 
 }
 
+h5{
+    font-weight: bold;
+    font-size: 16px;
+
+
+}
+
+h6{
+
+    font-weight: bold;
+    font-size: 12px;
+
+   
+}
+
 li{
     font-weight: 100;
     font-size: 1.1em;
@@ -104,14 +119,14 @@ display: flex;
 
 width: 100px;
 height: 100px;
-display: flex;
+display: none;
 
 
 }
 
 .card-2{
 
-border: 8px solid red;
+
 width: 100px;
 height: 100px;
 display: flex;
@@ -125,5 +140,76 @@ color:white;
 font-weight: 600;
 font-size: 24px;
 letter-spacing: 1px;
+}
+
+
+.shop{
+
+    display: flex;
+    width: auto;
+    align-items: center;
+    
+}
+
+
+.shop img{
+
+width: 200px;
+height:200px;
+
+}
+
+.shop h4{
+
+text-align: center;
+justify-content: center;
+
+}
+
+.img-1{
+
+
+    width: 600px;
+    text-align: center;
+    align-items: center;
+}
+
+
+section h1{
+
+text-align: center;
+}
+
+.info-bg img{
+
+width:100%;
+height:auto;
+z-index: -1;
+position:absolute;
+
+}
+
+
+.info-card{
+
+background-color: black;
+opacity: 70%;
+width: 500px;
+display: flex;
+justify-content: space-around;
+
+
+
+}
+
+.info-card p{
+
+color: wheat;
+}
+
+.info-bg{
+
+    display: flex;
+   
 }
 
